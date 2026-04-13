@@ -153,7 +153,7 @@ packageTargets.append(contentsOf: [
     .binaryTarget(
         name: "LocalLLMClientLlamaFramework",
         url:
-            "https://github.com/ggml-org/llama.cpp/releases/download/\(llamaVersion)/llama-\(llamaVersion)-xcframework.zip",
+            "https://github.com/stephanbail/LocalLLMClient/releases/download/xcf-\(llamaVersion)/llama-\(llamaVersion).xcframework.zip",
         checksum: "868a6b435393d451a3cd211fe186579a596d5a512e1711f1ce7048539fdc7ae3"
     ),
     .target(
